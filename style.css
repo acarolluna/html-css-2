@@ -241,7 +241,7 @@ td, th{
 }
 
 @media screen and (max-width: 480px){
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .input-padrao {
         width: auto;
     }
 
@@ -252,7 +252,14 @@ td, th{
         position: static;
     }
     
-    .lista-beneficios, .imagem-beneficios{
+    .lista-beneficios, .imagem-beneficios, .produtos li{
         width: 100%;
     }
+
+    .produtos li {
+        display:block;
+        margin-top: 5px;
+    }
+
+
 }
